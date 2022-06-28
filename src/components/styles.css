@@ -167,17 +167,19 @@
   }
   
   /** button group styles **/
-  .btn-group {
+  .btn-group2 {
     border-radius: 1rem;
     text-transform: capitalize;
   }
   .btn-group__item {
     border: none;
     /* min-width: 6rem; */
+    width: auto;
     padding: 1.5rem 3rem;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     margin: 0;
+    color: red;
     font-size: 17px;
     box-shadow: inset 0px 0px 0px -15px rebeccapurple;
     transition: all 300ms ease-out;

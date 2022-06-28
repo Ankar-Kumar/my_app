@@ -1,19 +1,19 @@
 import React from "react";
-
-const navbar = ({ filterItem, menuList }) => {
+import Menu from "./menuApi"
+const navbar = ({filterItem,list}) => {
   return (
     <>
       <nav className="navbar">
-        <div className="btn-group">
-          {menuList.map((curElem) => {
-            return (
-              <button
-                className="btn-group__item"
-                onClick={() => filterItem(curElem)}>
-                {curElem}
-              </button>
-            );
-          })}
+        <div className="btn-group2">
+          {
+            list.map((cur)=>{
+              return(
+                <button className="btn-group__item" onClick={()=>{filterItem(cur)}}>{cur}</button>
+              )
+             
+            })
+          }
+         
         </div>
       </nav>
     </>
