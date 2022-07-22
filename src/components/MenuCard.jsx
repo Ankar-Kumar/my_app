@@ -1,5 +1,5 @@
 import React from "react";
-
+// import image from "./sweet.jpg"
 const MenuCard = ({menuData}) => {
   //   console.log(menuData);
 
@@ -10,6 +10,7 @@ const MenuCard = ({menuData}) => {
       menuData.map((cur)=>{
         return(
           <>
+          
            <div className="card-container" key={cur.id}>
       <div className="card">
         <div className="card-body">
